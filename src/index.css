@@ -1,0 +1,181 @@
+ *{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    background-color:   #ffff0085;
+  
+ 
+}
+.cross{
+    position: relative;
+    left: 90%;
+    top: 10%
+}
+
+.cross-1{
+     height:40px;
+     width: 5px;
+     background: black;
+     transform: rotate(45deg);
+     position: absolute;
+
+}
+.cross-2{
+    height:40px;
+    width: 5px;
+    background: black;
+    transform: rotate(315deg);
+    position: absolute;
+}
+.container{
+    width:50%;
+    margin: 4rem auto;
+    
+  
+}
+.text-lable{
+
+  
+    position: absolute;
+    left:0%;
+    top:-6%;
+    font-size: 16px;
+    
+}
+
+.text-info{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.field{
+   
+    width: 98%;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.formbox{
+    width:50%;
+  
+    margin: auto ;
+   
+
+}
+
+.form-field{
+    position: relative;
+    padding-top: 1rem;
+    margin: 1.5rem 0rem;
+}
+.sbtn{
+    width:100%;
+    padding: 10px 10px;
+    background-color: rgb(213 52 52);
+    font-size: 20px;
+    margin: 2rem auto;
+    border: none;
+    color: #ffff;
+}
+.delbtn{
+    width:75%;
+    padding: 5px;
+    margin: 7px 10px;
+    background-color: rgb(252, 8, 8);
+    color: #ffff;
+}
+.error{
+    font-size: 14px;
+    color: rgb(252, 8, 8);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type = number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.pop-box {
+ 
+    border: 1px solid rgb(128, 128, 128);
+    width:420px;
+    height: 130px;
+    position: relative;
+    background-color: #fff;
+}
+
+.pop-box-contain{
+  
+    text-align: center;
+    margin-top: 3rem;
+}
+.pop{
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left:36%;
+    z-index: 1;
+}
+
+th,td {
+
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+   
+}
+
+table{
+    border-collapse: collapse ;
+    width:100%;
+    margin-top: 4rem;
+}
+
+.btn-info{
+    width:20%;
+    padding: 8px;
+    background-color: rgb(213 52 52);
+    color: #ffff;
+    border: none;
+    margin: 2rem;
+
+}
+.btn{
+    width:100%;
+    text-align: center;
+}
+
+
+@media (max-width:768px){
+    .formbox{
+        width:100%;
+    
+    }
+    .container{
+        width:70%;
+        
+      
+    }
+
+    .pop{
+        position: absolute;
+        top:30%;
+        left:6%;
+        
+    }
+    .pop-box {
+         width:400px;
+        height: 160px;
+        overflow: hidden;
+        
+    }
+
+    .sbtn{
+        margin: 4rem auto;
+       
+    }
+    
+}
