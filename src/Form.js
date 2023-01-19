@@ -43,7 +43,7 @@ export default function Form() {
      window.location.reload();
   }
   const send =  ()=>{
-    fetch("https://backend-wywh.onrender.com//api", {
+    fetch("https://backend-wywh.onrender.com/api", {
       method: "POST",
       body: JSON.stringify({
         username:state.name,
