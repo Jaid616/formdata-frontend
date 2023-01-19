@@ -24,7 +24,7 @@ export default function FormData() {
 
   const clear = async(id)=>{
    
-    await fetch(`https://backend-wywh.onrender.com//api/${id}`, {
+    await fetch(`https://backend-wywh.onrender.com/api/${id}`, {
       method: "DELETE",
     });
 
